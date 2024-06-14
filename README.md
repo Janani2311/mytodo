@@ -1,8 +1,11 @@
-# React + Vite
+# TODO app with all CRUD functionalities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app includes the below functionalities,
+- Two input fields with task name and description. When user clicks on the add button, the task will be created as card with status "Not-completed" as default.
+- There are two buttons included in the card to delete and edit the created task.
+- User can update the status in the card to "complete" in the dropdown menu.
+- The filter option to display the cards based on the status ("All" / "completed" / "Not completed")
 
-Currently, two official plugins are available:
+- This app is built with ReactJS using useState and useEffect Hooks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Acheived responsive design using css and media queries.
