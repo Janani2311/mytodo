@@ -1,0 +1,102 @@
+.create-todo{
+  width:100%;
+  text-align: center;
+  margin:40px;
+}
+.todo-heading > h3{
+  color:#48b497;
+}
+
+.edit-button > button{
+  background-color:#cc5e20 !important;
+}
+
+.add-button > button{
+  background-color: #13ad88 !important;
+}
+
+.card{
+  background-color: #ccf5d3 !important;
+  padding:5px;
+  line-height: 1em;
+}
+
+.wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap:5em;
+  margin:30px;
+}
+
+.top-head{
+  display:flex;
+  flex-wrap:wrap;
+  margin:20px 150px;
+}
+ 
+.filter-dropdown > select {
+  background-color: #fb8280 !important;
+}
+
+.completed > button{
+  background-color: #18ae8c;
+}
+
+.not-completed > button{
+  background-color: #fb8280;
+}
+
+.card-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap:2em;
+  row-gap:2em;
+  margin:5% 10%;
+}
+
+.status{
+  display:flex;
+  flex-wrap:nowrap;
+  align-items:center;
+  column-gap: 0.5em;
+}
+
+.card-button{
+  display:flex;
+  flex-wrap:nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 0.5em;
+}
+
+.delete-button{
+  background-color: #cc5e20 !important;
+}
+
+.edit-card-button{
+  background-color: #18ae8c !important;
+}
+
+
+@media screen and (max-width:768px) {
+  .card-wrapper{
+    margin:5% 50%;
+  }
+  .top-head{
+    flex-direction: column;
+    margin:5% 10%;
+  }
+  .wrapper{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .card-wrapper{
+    margin:5% 55%;
+  }
+}
